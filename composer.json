@@ -1,5 +1,5 @@
 {
-    "name": "easyswoole/easyswoole",
+    "name": "ennm/easyswoole",
     "type": "library",
     "description": "An efficient swoole framework",
     "keywords" : ["swoole", "framework", "async","easyswoole"],
@@ -16,7 +16,7 @@
         "ext-swoole": ">=4.2.6",
         "easyswoole/component": "^1.0",
         "easyswoole/spl": "^1.0",
-        "easyswoole/http": "^1.0",
+        "ennm/http": "^1.2.6",
         "easyswoole/utility": "^1.0",
         "jeremeamia/SuperClosure": "^2.4",
         "easyswoole/trace": "^1.0",
