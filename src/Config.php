@@ -163,4 +163,16 @@ class Config
     {
         $this->conf = new SplArray();
     }
+
+    public function loadJsonFile($filePath)
+    {
+        $str = file_get_contents($filePath);
+
+        $conf = json_decode($str, true);
+
+        foreach (array_keys($conf) as $value) {
+
+            $this->conf[$value] = $conf[$value];
+        }
+    }
 }
