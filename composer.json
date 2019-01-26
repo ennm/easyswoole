@@ -15,13 +15,13 @@
         "php": ">=7.1.0",
         "ext-swoole": ">=4.2.6",
         "easyswoole/component": "1.4.6",
-        "easyswoole/spl": "1.0",
+        "easyswoole/spl": "1.1.6",
         "ennm/http": "1.2.6",
-        "easyswoole/utility": "1.0",
+        "easyswoole/utility": "1.0.5",
         "jeremeamia/SuperClosure": "2.4",
-        "easyswoole/trace": "1.0",
-        "easyswoole/socket": "1.0",
-        "dragonmantank/cron-expression": "2.2"
+        "easyswoole/trace": "1.1.7",
+        "easyswoole/socket": "1.1.7",
+        "dragonmantank/cron-expression": "v2.2.0"
     },
     "require-dev": {
         "easyswoole/swoole-ide-helper": "dev-master"
